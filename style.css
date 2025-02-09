@@ -1,0 +1,286 @@
+    /* Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* main styling */
+    html,
+    body {
+        color: #fff;
+        font-family: sans-serif;
+    }
+
+    #img {
+        background-image: url(../img/infinite-loop-01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-position: center 25%;
+        padding: 0.625rem; /*10/16 = 0.625*/
+        padding-bottom: 150px;
+    }
+    
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3 {
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-bottom: 20px;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    #navbar {
+        overflow: auto;
+        
+    }
+
+    #navbar h1 {
+        float: left;
+        padding-top: 30px;
+    }
+
+    #navbar ul {
+        float: right;
+        list-style: none;
+    }
+
+    #navbar ul li {
+        display: inline-block;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    #navbar ul li a:hover {
+        background-color: #74EBD5;
+        color: #333;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .text-primary {
+        color: #74EBD5;
+    }
+
+    .lead {
+        font-size: 20px;
+    }
+
+    .btn {
+        display: inline-block;
+        font-size: 18px;
+        color: #fff;
+        background-color: #333;
+        padding: 13px 20px;
+        cursor: pointer;
+    }
+
+    .btn-light {
+        background-color: #ccc;
+        color: #333;
+    }
+
+    .btn-dark {
+        background-color: #333;
+        color: #fff;
+    }
+
+    .btn-light {
+        background-color: #fff;
+        color: #333;
+    }
+
+    .bg-primary {
+        background-color: #74EBD5;
+        color: #333;
+    }
+
+    .clr {
+        clear: both;
+    }
+
+    /* Showcase section */
+    #showcase {
+        text-align: center;
+        margin: 100px;
+        margin-top: 150px;
+    }
+
+    .ikonka {
+    font-size: 70px;
+    text-align: center;
+    }
+
+    .ikonka:hover,
+    .ikonka:active {
+        cursor: pointer;
+        color: #74EBD5;
+    }
+
+    #footer {
+        text-align: center;
+        margin-top: 150px;
+
+    }
+
+    .h1 {
+        color: #2d09a3;
+    }
+
+    .h5 {
+        color: #a074eb;
+        margin: 10px;
+    }
+
+    /* img1 */
+    #img1 {
+        margin: 100px;
+        padding: 0px;
+        display: inline-block;
+    }
+    #img1 img{
+        margin: 20px;
+    }
+    /* footer2 */
+
+    .footer1 {
+        color: #fff;
+    }
+
+    .orta {
+        margin: 50px;
+        text-align: center;
+    }
+
+    /* input */
+
+    .input {
+        margin-top: 50px;
+    margin-left: 400px;
+    }
+
+    input{
+        width: 500px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+
+    /* img qismi */
+    #footer2 {
+        background-image: url(../img/infinite-loop-03.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-position: center 25%;
+        padding: 10px;
+        padding-bottom: 100px;
+    }
+
+    /* inputlar */
+
+    .ikon {
+        margin-bottom: 35px;
+    }
+
+    .ikon1 {
+        margin-top: 30px;
+    
+    }
+
+    .input5 {
+        margin-left: 380px;
+    }
+
+    .inline {
+        margin-left: 50%;
+        position: relative;
+        width: 50%;
+        height: 500px;
+        margin-top: -500px;
+        color: #fff;
+    }
+
+    .c1 {
+        width: 50%;
+        height: 500px;
+        margin-left: 380px;
+    }
+
+    ::placeholder {
+        color: #fff;
+    }
+
+    .h3 {
+        margin-top: -25px;
+        margin-left: 60px;
+        font-size: 18px;
+    }
+
+    #ikonka12 {
+        margin-left: 200px;
+    }
+
+    .ikonka123 {
+        margin-top: 25px;
+        margin-left: 200px;
+    }
+
+    .ikonka1234 {
+        margin-top: 95px;
+        margin-left: 200px;
+    }
+
+    .ikonka12345 {
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+
+    .button {
+        width: 250px;
+        height: 40px;
+        margin-left: 370px;
+        margin-top: -200px;
+        border-radius: 5px;
+        background-color: #2d09a3;
+        color: #fff;
+    }
+
+    .button :hover {
+        cursor: pointer;
+        background-color: rebeccapurple;
+        color: #333 ;
+    }
+
+    .button1 {
+        margin-top: 180px;
+    }
+
+    .button1 :hover {                                               
+        cursor: pointer;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .h4 {
+        margin-left: 500px;
+        margin-top: 0px;
+        font-size: large;
+    }
+
+    .fas {
+        color: #333;
+    }
